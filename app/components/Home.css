@@ -1,0 +1,114 @@
+.container {
+
+  width:100hh;
+  height:98vh;
+  margin:0;
+  padding:0;
+
+}
+
+.container h2 {
+  font-size: 3rem;
+  margin: 5px;
+}
+
+.container a {
+  font-size: 1.4rem;
+}
+
+.head {
+  margin: 30px;
+  padding:0;
+}
+
+.content {
+  padding: 10px;
+}
+
+.top{
+  margin:0;
+  padding:0;
+  background-color: rgba(0, 1, 127, 0.3);
+
+}
+
+.bottom {
+  display:flex;
+  align-items: center;
+  background-color: azure;
+  margin: 0;
+  border-bottom: 1px solid rgba(0,0,0,0.2)
+
+}
+
+.bottom button{
+  height:30px;
+  margin:5px 5px 5px 5px;
+
+
+}
+
+.folders {
+  display: flex;
+  color: black;
+  align-items: center;
+
+
+}
+
+.foldersFolder {
+  display:flex;
+  margin:5px;
+  padding:2px 5px 2px 5px;
+  background-color: rgb(230,230,230);
+  color: black;
+  border-radius: 3px;
+  font-size: 13px;
+  cursor: default;
+  border: 1px solid rgba(0,0,0,0.5);
+}
+
+
+
+.foldersFolderButton{
+  margin: 0px 5px 0px 5px;
+  padding: 1xp;
+  background: rgb(200,200,200);
+  border-radius: 1px;
+  cursor: pointer;
+}
+
+
+.foldersInfo {
+  margin:5px;
+  cursor: default;
+}
+
+.search {
+  display: flex;
+  margin: 0px;
+  padding:5px;
+  color: black;
+  background-color: azure;
+}
+
+.search input{
+
+
+  margin: 0px 0px 0px 5px;
+  width: 100%;
+}
+
+.locationGrid {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.picture {
+  width: 100px;
+  height: auto;
+}
+
+.picture img {
+  width:100%;
+}
